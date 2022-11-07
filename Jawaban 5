@@ -1,0 +1,17 @@
+class waktu:
+    jj = 0
+    mm = 0
+    dd = 0 
+
+jam = waktu()
+totaldetik = 0
+
+j = input("Masukkan Jam : ")
+m = input("Masukkan menit : ")
+d = input("Masukkan detik : ")  
+
+jam.jj=int(j)
+jam.mm=int(m)
+jam.dd=int(d)
+
+print("Jam ",jam.jj,":",jam.mm,":",jam.dd)
