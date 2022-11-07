@@ -1,0 +1,27 @@
+from re import A
+
+
+print("""===================
+List Menu
+1. Teh : 3000
+2. Cappucino : 5000
+==========================""")
+order = int(input("Choose Menu "))
+totalorder = int(input("Input total item order : "))
+
+if order == 1:
+    listname= "Teh"
+    harga=3000
+    price=int(harga*totalorder)
+    ppn=int(price*10/100)
+    total=int(price+ppn)    
+    print(total)
+
+elif order == 2:
+    listname= "Cappucino"
+    price=(5000*totalorder)
+    ppn=int(price*10/100)
+    total=int(price+ppn)
+    
+else:
+    print("pil salah")
