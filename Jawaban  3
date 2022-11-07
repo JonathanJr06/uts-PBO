@@ -1,0 +1,16 @@
+>Looping atau perulangan adalah pernyataan atau intruksi yang diberikan kepada komputer agar ia mau melakukan untuk memproses data, menampilkan data secara berulang.
+For val in “bahasa”:
+print(val)
+print(“selesai”)
+>Looping dengan continue digunakan apabila bertemu variable yang sama pada saat looping tetapi program tetap dijalankan. 
+	For val in “bahasa”
+		if val == “h”
+		continue
+	print(val)
+	print(“selesai”)
+>Looping dengan break digunakan apabila ditemukan variable yang sama dalam suatu porgram maka program tersebut akan terhenti.
+	For val in “bahasa”
+		if val == “h”
+		break
+	print(val)
+	print(“selesai”)
